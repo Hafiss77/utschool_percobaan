@@ -1,0 +1,127 @@
+/* Pengaturan Dasar untuk Seluruh Halaman */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Wadah Utama untuk Konten */
+.container {
+    width: 80%;
+    max-width: 960px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+/* Header dan Footer */
+header, footer {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+    border-radius: 10px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+/* Navigasi */
+nav a {
+    color: #fff; /* Warna link di header dan footer */
+    text-decoration: none;
+    padding: 0 10px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Konten Utama */
+main {
+    padding: 1rem 0;
+}
+
+main a {
+    color: #0077cc; /* Warna link di dalam konten utama */
+}
+
+hr {
+    display: none; /* Sembunyikan garis <hr> karena sudah ada pemisah visual */
+}
+
+/* Styling Khusus Halaman */
+
+/* Halaman Utama (index.html) */
+.profile-pic {
+    display: block;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%; /* Membuat gambar menjadi bulat */
+    margin: 20px auto;
+    object-fit: cover; /* Memastikan gambar tidak gepeng */
+}
+
+/* Halaman Tentang (tentang.html) - Tabel */
+table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse; /* Menghilangkan spasi antar border */
+}
+
+th, td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+/* Halaman Kontak (kontak.html) - Formulir */
+form {
+    margin-top: 20px;
+}
+
+form div {
+    margin-bottom: 15px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box; /* Penting agar padding tidak menambah lebar */
+}
+
+form button {
+    background-color: #333;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+form button:hover {
+    background-color: #555;
+}
